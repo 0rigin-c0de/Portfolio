@@ -122,21 +122,21 @@
 
 .icon-github {
   color: rgb(255, 255, 255);
-  font-size: 35px;
+  font-size: 30px;
   cursor: pointer;
   filter: drop-shadow(1px 1px rgb(36, 244, 241));
 }
 
 .icon-linkedin {
   color: rgb(35, 145, 236);
-  font-size: 35px;
+  font-size: 30px;
   cursor: pointer;
   filter: drop-shadow(1px 1px white);
 }
 
 .icon-mail {
   color: rgb(215, 15, 15);
-  font-size: 35px;
+  font-size: 30px;
   cursor: pointer;
   filter: drop-shadow(1px 1px white);
 }
