@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita&display=swap");
+
+.contactbackground {
+  width: 100%;
+  height: 100%;
+  background-color: #162a4a;
+  padding-top: 110px;
+}
+
+.contact-icon {
+  color: whitesmoke;
+  position: relative;
+  bottom: 10px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-row {
+  padding-top: 40px;
+}
+
+.get-div {
+  padding: 10px;
+}
+
+.contact-me {
+  text-shadow: 1px 1px 2px #0b0b0b;
+  color: rgba(255, 217, 0, 0.932);
+  font-size: 3.2rem;
+  font-weight: 800;
+  font-family: "Sansita", sans-serif;
+}
+
+.contacthead {
+  text-shadow: 1px 1px 2px #0b0b0b;
+  color: rgba(255, 217, 0, 0.932);
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-family: "Sansita", sans-serif;
+}
+
+.contactpara {
+  padding-top: 1rem;
+  text-align: justify;
+  color: whitesmoke;
+  font-size: 22px;
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+
+.watsapp-icon {
+  width: 25px;
+  height: 25px;
+  color: #32fe32;
+  border-radius: 5px;
+  position: relative;
+  bottom: 3px;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
+.contactbtn {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 50px;
+  color: #ffffff;
+  font-family: "Sansita", sans-serif;
+  box-shadow: rgba(200, 200, 205, 0.1) 0px 4px 16px,
+    rgba(200, 200, 205, 0.1) 0px 8px 24px,
+    rgba(200, 200, 205, 0.1) 0px 16px 56px;
+  box-shadow: rgba(191, 191, 196, 0.25) 0px 2px 5px -1px,
+    rgba(225, 222, 222, 0.3) 0px 1px 3px -1px;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  letter-spacing: 2px;
+}
+
+.contactbtn:hover {
+  background-color: rgba(57, 245, 245, 0.388);
+  color: #000;
+}
+
+.copyright {
+  margin-top: 10px;
+  padding: 1px;
+  text-align: center;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  color: whitesmoke;
+}
+.copyright-icon {
+  position: relative;
+  bottom: 2px;
+}
+.copyright span {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 0);
+}
+
+.contact-form {
+  margin-left: 30px;
+}
+
+.input-div {
+  padding-left: 180px;
+}
+
+.input-label {
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 0.5px 0.5px 1px #292929;
+}
+
+.contact-form h2 {
+  color: rgba(255, 217, 0, 0.932);
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.contact-form .text-box {
+  background: #8984844f;
+  color: #fff;
+  border: none;
+  width: 60%;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-form textarea {
+  background: #000;
+  color: #fff;
+  border: none;
+  /* width: 100%; */
+  padding: 12px;
+  font-size: 15px;
+  min-height: 150px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.send-button {
+  display: flex;
+  justify-content: center;
+}
+
+.send-btn {
+  background: #2e94e3;
+  box-shadow: rgba(191, 191, 196, 0.078) 0px 2px 5px -1px,
+    rgba(225, 222, 222, 0.112) 0px 1px 3px -1px;
+  color: #fff;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form .send-btn:hover {
+  background: #0582e3;
+  border-radius: 5px;
+}
+.submit-btn-loader {
+  width: 30px;
+  height: 30px;
+  border: 5px solid #ffffff50;
+  border-top-color: #ffffff;
+  animation: spin013151 1s linear infinite;
+  border-radius: 100%;
+}
+
+@keyframes spin013151 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 500px) {
+  .input-div {
+    padding-left: 0px;
+  }
+  .contact-form {
+    margin: 30px 50px;
+  }
+
+  .contact-form h2 {
+    font-size: 30px;
+  }
+
+  .contact-form .text-box {
+    width: 100%;
+  }
+
+  .contacthead {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .contactpara {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+  .contact-row {
+    padding-top: 50px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 780px) {
+  .contact-form {
+    margin-left: 0px;
+  }
+  .input-div {
+    padding-left: 70px;
+  }
+  .contact-form .text-box {
+    width: 80%;
+  }
+  .get-div {
+    width: 100%;
+  }
+  .contacthead {
+    padding-top: 0px;
+  }
+}
