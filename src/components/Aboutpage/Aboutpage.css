@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita&display=swap");
+
+.aboutpagebackground {
+  width: 100%;
+  height: 100vh;
+  background-color: #162a4a;
+  padding-top: 110px;
+}
+
+.textbackground {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-color: transparent;
+  border-radius: 15px;
+  box-shadow: rgba(192, 192, 198, 0.1) 0px 4px 16px,
+    rgba(192, 192, 198, 0.1) 0px 8px 24px,
+    rgba(192, 192, 198, 0.1) 0px 16px 56px;
+  box-shadow: 0 8px 32px 0 rgba(192, 192, 198, 0.1);
+  box-shadow: 0px 0px 5px 5px rgba(242, 242, 242, 0.135);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutmetext {
+  font-size: 2em;
+  color: rgba(255, 217, 0, 0.932);
+  text-shadow: 1px 1px 2px #101010;
+  text-shadow: 2px 2px 3px #0b0b0b;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-family: "Kaushan Script", cursive;
+}
+.aboutmetext span:hover {
+  display: inline-block;
+  transition: all 500ms;
+  color: #f7f5f5;
+  animation: vibrate 30ms linear infinite forwards;
+}
+@keyframes vibrate {
+  0% {
+    transform: translateX(-1px) translateY(1px);
+  }
+  100% {
+    transform: translateX(1px) translateY(-2px);
+  }
+}
+.aboutdetails {
+  font-size: 1.2em;
+  text-align: justify;
+  color: #ffffffd9;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.about-user {
+  position: relative;
+  bottom: 5px;
+  color: rgba(246, 246, 246, 0.712);
+}
+
+.webimage {
+  max-width: 500px;
+  height: 450px;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .aboutpagebackground {
+    width: 100%;
+    height: 100%;
+  }
+  .textbackground {
+    display: block;
+    margin-top: 50px;
+    margin-left: 3px;
+    padding-top: 5px;
+  }
+  .aboutmetext {
+    padding-top: 20px;
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  .aboutdetails {
+    font-size: 15px;
+    text-align: justify;
+    color: #e8e8e8;
+    letter-spacing: 0.3px;
+  }
+  .webimage {
+    max-width: 500px;
+    height: 300px;
+    padding-top: 0px, rgba(212, 212, 218, 0.1) 0px 8px 24px,
+      rgba(212, 212, 218, 0.1) 0px 16px 56px;
+    box-shadow: 0 8px 32px 0 rgba(192, 192, 198, 0.183);
+  }
+}
+@media screen and (min-width: 486px) and (max-width: 790px) {
+  .aboutpagebackground {
+    width: 100%;
+    height: 100%;
+  }
+  .textbackground {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutmetext {
+    padding-top: 20px;
+    font-size: 2em;
+  }
+  .aboutdetails {
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+  }
+}
