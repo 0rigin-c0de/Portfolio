@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+/* -------------------- */
+.skills-background {
+  width: 100%;
+  height: 100vh;  
+  background-color: #162a4a;
+  padding-top: 80px;
+}
+
+.skills-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 120px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgba(210, 205, 205, 0.16);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.skills-card:hover {
+  transform: translateY(-5px);
+}
+
+.skills-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.skills-name {
+  font-family: "Sansita", sans-serif;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: 0.5px 0.5px 1px #030303;
+}
+
+.skills-col {
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgba(210, 205, 205, 0.16);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+}
+
+.ratings-card {
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgba(210, 205, 205, 0.16);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+}
+.progress {
+  height: 12px;
+  margin-bottom: 15px;
+}
+.progress-1st-col {
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgba(210, 205, 205, 0.16);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.progress-2nd-col {
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgba(210, 205, 205, 0.16);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.text {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.html-icon {
+  color: rgb(255, 68, 0);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.css-icon {
+  color: blue;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.js-icon {
+  color: yellow;
+  background-color: rgb(63, 61, 61);
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.bootstrap-icon {
+  color: rgb(123, 11, 123);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.react-icon {
+  color: rgb(34, 220, 237);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.markdwn-icon {
+  color: yellow;
+  background-color: rgb(63, 61, 61);
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.mongodb-icon {
+  color: green;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.node-icon {
+  color: greenyellow;
+  background-color: rgb(63, 61, 61);
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.express-icon {
+  color: rgb(10, 151, 10);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.github-icon {
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.netlify-icon {
+  color: rgb(27, 179, 235);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.git-icon {
+  color: rgb(27, 179, 235);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.tools-and-technologies-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px #181818ad;
+  text-shadow: 2px 2px 3px #0b0b0b;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: "Merienda", cursive;
+  letter-spacing: 0px;
+  font-style: italic;
+}
+
+.skills-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px #000000a7;
+  text-shadow: 2px 2px 3px #0b0b0b;
+  font-family: "Merienda", cursive;
+  letter-spacing: 0px;
+  text-align: center;
+  font-style: italic;
+}
+
+.skills-row {
+  padding-top: 10px;
+}
+
+.html-progress {
+  background-color: #ffffff;
+  background-color: rgba(255, 217, 0, 0.932);
+}
+
+.css-progress {
+  background-color: #ffffff;
+  background-color: rgba(255, 217, 0, 0.932);
+}
+
+.js-progress {
+  background-color: #ffffff;
+  background-color: rgba(255, 217, 0, 0.932);
+}
+
+.bootstrap-progress {
+  background-color: #ffffff;
+  background-color: rgba(255, 217, 0, 0.932);
+}
+
+.react-progress {
+  background-color: #ffffff;
+  background-color: rgba(255, 217, 0, 0.932);
+}
+
+.git-progress {
+  background-color: #ffffff;
+  background-color: rgba(255, 217, 0, 0.932);
+}
+
+.mongodb-progress {
+  background-color: #ffffff;
+  background-color: rgba(255, 217, 0, 0.932);
+}
+
+.express-progress {
+  background-color: #ffffff;
+  background-color: rgba(255, 217, 0, 0.932);
+}
+
+.node-progress {
+  background-color: #ffffff;
+  background-color: rgba(255, 217, 0, 0.932);
+}
+
+.material-progress {
+  background-color: #ffffff;
+  background-color: rgba(255, 217, 0, 0.932);
+}
+
+.github-progress {
+  background-color: #ffffff;
+  background-color: rgba(255, 217, 0, 0.932);
+}
+
+.git-progress {
+  background-color: #ffffff;
+  background-color: rgba(255, 217, 0, 0.932);
+}
+
+/* ------------------------------------------------------------------ */
+@media screen and (min-width: 320px) and (max-width: 475px) {
+  .skills-background {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .tools-and-technologies-title {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .skills-title {
+    font-size: 1.5rem !important;
+    margin-top: 10px;
+  }
+  .skills-col {
+    margin-left: 10px;
+  }
+  .skills-card {
+    width: 80px !important;
+    height: 106px !important;
+    margin: 5px !important;
+  }
+  .skills-name {
+    font-size: 12px !important;
+  }
+  .skills-icon {
+    font-size: 3rem;
+    margin-bottom: 3px !important;
+  }
+  .skills-row {
+    padding-top: 0px !important;
+  }
+  .progress {
+    width: 90%;
+    margin-bottom: 5px !important;
+  }
+  .progress-1st-col {
+    padding: 10px;
+    margin-left: 15px !important;
+  }
+  .progress-2nd-col {
+    padding: 10px;
+    margin-left: 15px !important;
+  }
+}
+/* ------------------------------------------------------------------ */
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .skills-background {
+    width: 100% !important ;
+    height: 100% !important;
+  }
+  .skills-row {
+    padding-top: 0px !important;
+  }
+  .progress-1st-col {
+    margin-left: 15px !important;
+  }
+  .progress-2nd-col {
+    margin-left: 15px !important;
+  }
+  .progress {
+    width: 90%;
+    margin-bottom: 5px !important;
+  }
+}
+/* ------------------------------------------------------------------ */
