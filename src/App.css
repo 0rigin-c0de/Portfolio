@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tillana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+
+body {
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #162a4a;
+}
+html {
+  scroll-behavior: smooth;
+  background-color: #162a4a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+/*Scrollbar   */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #a0a1a4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #162a4a;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #162a4a;
+  border-radius: 12px;
+}
