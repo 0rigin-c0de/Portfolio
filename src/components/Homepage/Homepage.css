@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
 
 .homepagebackground {
-  width: 100%;
+  width: 101%;
   height: 100vh;
   background-color: #162a4a;
   background-image: url("../../Images/bg.png");
@@ -94,7 +94,6 @@
   text-align: center;
   margin-left: -200px;
   width: 350px;
-  position: fixed;
   height: 350px;
   border-radius: 200px;
   background-image: url(../../Images/img.png);

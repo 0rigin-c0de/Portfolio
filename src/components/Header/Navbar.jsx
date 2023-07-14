@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { AiFillFileExclamation } from "react-icons/ai";
@@ -87,7 +86,7 @@ function Header() {
               onClick={() => updateExpanded(false)}
             >
               <FcDocument className="navbar-icons" />
-              Projects
+              Experience
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
