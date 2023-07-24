@@ -7,7 +7,7 @@
   width: 101%;
   height: 100vh;
   background-color: #162a4a;
-  background-image: url("../../Images/bg.png");
+  background: url(../../Images/mainbg.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,12 +95,33 @@
   margin-left: -200px;
   width: 350px;
   height: 350px;
-  border-radius: 200px;
+  border-radius: 40% 30% 50% 20% / 10% 50% 40% 30%;
   background-image: url(../../Images/img.png);
   background-size: cover;
   background-position: center;
-  /* box-shadow: rgba(246, 246, 246, 0.256) 0px 5px 15px; */
+  box-shadow: rgba(246, 246, 246, 0.256) 0px 5px 15px;
   opacity: 0.9;
+}
+
+.imagedeveloper:hover {
+  opacity: 0.5;
+  border-radius: 200px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-image {
+  animation: pulse 2s infinite;
 }
 
 .socailmediabtn {
