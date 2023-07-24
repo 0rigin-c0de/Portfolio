@@ -6,6 +6,15 @@ import { AiFillGithub } from "react-icons/ai";
 import { GrMail } from "react-icons/gr";
 import { FaLinkedinIn } from "react-icons/fa";
 function Home() {
+  const startAnimation = () => {
+    const image = document.querySelector(".imagedeveloper");
+    image.classList.add("animate-image");
+  };
+
+  const stopAnimation = () => {
+    const image = document.querySelector(".imagedeveloper");
+    image.classList.remove("animate-image");
+  };
   return (
     <div className="homepagebackground">
       <Container>
@@ -44,7 +53,11 @@ function Home() {
             </div>
           </Col>
           <Col md={5}>
-            <div className="imagedeveloper img-blob"></div>
+            <div
+              className="imagedeveloper img-blob"
+              onMouseEnter={startAnimation}
+              onMouseLeave={stopAnimation}
+            ></div>
           </Col>
         </Row>
       </Container>
