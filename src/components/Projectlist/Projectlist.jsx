@@ -15,7 +15,7 @@ function Projectlist() {
       <Container fluid className="project-section">
         <Container>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            <h2 className="title">Some of my Projects</h2>
+            <h2 className="title">Some of my Projects :</h2>
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={Project1}
@@ -87,6 +87,7 @@ function Projectlist() {
                 Code="https://github.com/0rigin-c0de/Markdown-App-"
               />
             </Col>
+            <h2 className="title">Open Source </h2>
           </Row>
         </Container>
       </Container>
