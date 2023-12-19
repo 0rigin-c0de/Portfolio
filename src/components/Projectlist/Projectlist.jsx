@@ -2,12 +2,13 @@ import React from "react";
 import "./ProjectCards.css";
 import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from "react-bootstrap";
-import Project1 from "../../Images/Project1.png";
-import Project2 from "../../Images/Project2.png";
-import Project3 from "../../Images/Project3.png";
-import Project4 from "../../Images/Project4.png";
-import Project5 from "../../Images/Project5.png";
-import Project6 from "../../Images/Project6.png";
+import Project1 from "../../Images/projct1.png";
+import Project2 from "../../Images/Project1.png";
+import Project3 from "../../Images/Project2.png";
+import Project4 from "../../Images/Project3.png";
+import Project5 from "../../Images/Project4.png";
+import Project6 from "../../Images/Project5.png";
+import Project7 from "../../Images/Project6.png";
 
 function Projectlist() {
   return (
@@ -19,6 +20,16 @@ function Projectlist() {
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={Project1}
+                title="PiperChat"
+                description="Utilized the MERN (MongoDB, Express, React, Node.js) stack to build DISCORD CLONE from the scratch.
+                Developed features like Create Servers, Create Channels, and giving users the ability to create and manage their own chat servers."
+                Demo="https://www.youtube.com/watch?v=eX9f0HHp65k"
+                Code="https://github.com/0rigin-c0de/PiperChat01"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={Project2}
                 title="PiedPiper Blog Website"
                 description="Pied-Piper01 is a simple blog web application built with ReactJs and Firebase.
                 It allows users to create, read, and comment on posts. The posts and images are stored in Firebase, making it easy to scale and manage the app. 
@@ -29,7 +40,7 @@ function Projectlist() {
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={Project2}
+                imgPath={Project3}
                 title="Foodie Restaurant Website Template"
                 description="Foodie is a responsive and visually appealing restaurant website template built with React. 
                 It provides an interactive interface for showcasing delicious food items, ordering food, and learning more about the restaurant's services. 
@@ -41,7 +52,7 @@ function Projectlist() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={Project3}
+                imgPath={Project4}
                 title="Mern Auth App"
                 description="This MERN app is a secure and user-friendly system for authentication, registration, and profile management. It features a backend API built with Express and MongoDB, with protected routes and JWT authentication stored in HTTP-only cookies.The React frontend uses React Bootstrap for UI components. Overall, the app offers users to create accounts,
                 log in, view and update their profiles."
@@ -52,7 +63,7 @@ function Projectlist() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={Project4}
+                imgPath={Project5}
                 title="Wiki Viewer"
                 description="Wiki Viewer is a web app that allows users to search for and view Wikipedia articles. 
                 The app uses the Wikipedia API to fetch article data, and it is built with HTML, CSS, and JavaScript. 
@@ -64,7 +75,7 @@ function Projectlist() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={Project5}
+                imgPath={Project6}
                 title="Snake-Game Java"
                 description="The Snake Game is a classic arcade-style game built in Java. 
                 It features a snake controlled by the player, moving within a grid to eat apples. 
@@ -77,7 +88,7 @@ function Projectlist() {
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={Project6}
+                imgPath={Project7}
                 title="Note-Taking App"
                 description="The Notes App is a React JS and Firebase web application that allows users to create, edit, and manage notes. 
                 It features a markdown editor for formatting and previewing notes. 
@@ -87,7 +98,6 @@ function Projectlist() {
                 Code="https://github.com/0rigin-c0de/Markdown-App-"
               />
             </Col>
-            <h2 className="title">Open Source </h2>
           </Row>
         </Container>
       </Container>
