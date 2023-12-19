@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Contactpage.css";
 import { Container } from "react-bootstrap";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -6,9 +6,15 @@ import { AiFillMessage } from "react-icons/ai";
 import { IoMdSend } from "react-icons/io";
 import "react-toastify/dist/ReactToastify.css";
 import { FaCopyright } from "react-icons/fa";
+import GitHubCalendar from "github-calendar";
 
 function Contactpage() {
   const [loader, setLoader] = useState(true);
+
+  useEffect(() => {
+    GitHubCalendar(".github-calendar", "0rigin-c0de", { responsive: true });
+  }, []);
+
   return (
     <>
       <div className="contactbackground">
@@ -109,6 +115,9 @@ function Contactpage() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="github-calendar">
+        {/* <GitHubCalendar /> */}
       </div>
     </>
   );
