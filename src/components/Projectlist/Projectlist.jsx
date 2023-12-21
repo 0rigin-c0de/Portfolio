@@ -30,8 +30,8 @@ function Projectlist() {
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={Project2}
-                title="PiedPiper Blog Website"
-                description="Pied-Piper01 is a simple blog web application built with ReactJs and Firebase.
+                title="InfoSphere Blog Website"
+                description="InfoSphere is a simple blog web application built with ReactJs and Firebase.
                 It allows users to create, read, and comment on posts. The posts and images are stored in Firebase, making it easy to scale and manage the app. 
                 The app is also responsive, which means it works well on all types of screens."
                 Demo="https://piedpiper01.netlify.app"
