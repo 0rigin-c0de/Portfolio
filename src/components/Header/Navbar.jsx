@@ -16,6 +16,7 @@ import {
 function Header() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -23,10 +24,11 @@ function Header() {
       updateNavbar(false);
     }
   }
+
   window.addEventListener("scroll", scrollHandler);
 
   const handleResumeClick = () => {
-    alert("Available soon");
+    window.open("/SunilKumar1.pdf", "_blank");
   };
 
   return (
